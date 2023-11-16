@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC Generic Utils
+
+# COMMAND ----------
+
 metadataTableName = dbutils.widgets.getArgument("metadataTableName")
 optimize_notebook_path = dbutils.widgets.getArgument("optimize_notebook_path")
 vacuum_notebook_path = dbutils.widgets.getArgument("vacuum_notebook_path")
